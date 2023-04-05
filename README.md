@@ -11,8 +11,10 @@ DB_USERNAME=
 DB_PASSWORD=
 on the .env file in the app folder preferably with localhost credentials for testing
 
-Install the noje packages of the applications by running npm install
+Install the python packages of the applications by running 
+```pip install -r requirements.txt```
 
-Run the server python app.py
+Run the server 
+```python app.py```
 
 Interact with the api via postman. The default URI is http://{your url}:{port number}/api/v1/your-route eg: http://localhost:5000/api/v1/upload
