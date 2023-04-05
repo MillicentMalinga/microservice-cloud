@@ -15,8 +15,7 @@ on the .env file in the app folder preferably with localhost credentials for tes
 #### Install the python packages of the applications by running 
 ```pip install -r requirements.txt```
 #### create a table in your database with the following:
-``` CREATE TABLE mydatabase.files (   id INT NOT NULL AUTO_INCREMENT,   filename VARCHAR(255) NOT NULL,   url VARCHAR(255) NOT NULL,   PRIMARY KEY (id) );
-```
+``` CREATE TABLE mydatabase.files (   id INT NOT NULL AUTO_INCREMENT,   filename VARCHAR(255) NOT NULL,   url VARCHAR(255) NOT NULL,   PRIMARY KEY (id);```
 
 
 Run the server 
